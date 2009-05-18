@@ -1,0 +1,8 @@
+Column Nav: http://sam.clark.name
+jCal: http://www.overset.com/2008/05/12/multiday-calendar-datepicker-jquery-plugin/
+Animate Clip: http://www.overset.com/2008/08/07/jquery-css-clip-animation-plugin/
+jQuery Color: http://plugins.jquery.com/project/color
+Masked Input: http://digitalbush.com/projects/masked-input-plugin/
+Scroll Follow: http://kitchen.net-perspective.com/open-source/scroll-follow/
+Scroll To: http://flesler.blogspot.com/2007/10/jqueryscrollto.html
+Thickbox: http://jquery.com/demo/thickbox/

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Wireframe Stub</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en-us" />
+		<link type="text/css" href="css/blueprint-974.css" rel="stylesheet" />
+		<link type="text/css" href="css/basic.css" rel="stylesheet" />
+		<link type="text/css" href="css/polypage.default.css" rel="stylesheet" />		
+		
+		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.decorateTables.js"></script>
+		<script type="text/javascript" src="js/polypage.jquery.js"></script>
+		<script type="text/javascript" src="js/events.polypage.jquery.js"></script>
+		<script type="text/javascript" src="js/cookie.polypage.jquery.js"></script>
+		<script type="text/javascript" src="js/gui.polypage.jquery.js"></script>
+		<script type="text/javascript" src="js/keyboard.polypage.jquery.js"></script>
+		
+	</head>
+	<body>
+		<div class="container" id="header">
+			Header
+		</div>
+		<div class="container" id="content">
+			Content
+			<!-- Sample Note -->
+			<div class="pp_Notes">
+				<p>This is a sample note.</p>
+			</div>
+			<!-- Sample Buttons -->
+			<div class="container">
+				<a class="button secondary" href="#"><img src="images/icons/arrow_left.png" alt="" /> Previous Step</a>
+				<a class="button negative" href="#"><img src="images/icons/cancel.png" alt="" /> Cancel</a>
+				<a class="button neutral" href="#"><img src="images/icons/help.png" alt="" /> Help</a>
+				<a class="button positive" href="#"><img src="images/icons/tick.png" alt="" /> Save and Continue</a>
+			</div>
+		</div>
+		<div class="container" id="footer">
+			Footer
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('body').polypage();
+				decorateTables();
+			});
+			
+		</script>
+	</body>
+</html>
